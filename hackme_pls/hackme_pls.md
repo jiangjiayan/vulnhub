@@ -1,6 +1,5 @@
 ﻿# HACK ME PLEASE: 1
-## Résume 
-Cette boîte intermédiaire classée par la communauté comportait le fuzzing et l'exploitation d'une vulnérabilité de traversée de répertoire, avec laquelle nous avons pu accéder à la clé SSH d'un utilisateur. Une fois sur la cible, nous avons réalisé que le fichier /etc/passwd était accessible en écriture, nous avons donc créé un nouvel utilisateur, root2, avec des autorisations de niveau racine.
+
 1. Collecte d'informations :
 
 ```bash
